@@ -1,0 +1,39 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/paper" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/choose_enterprise" android:textColor="@color/ink" android:textSize="24sp" android:textStyle="bold"/>
+        <!--  Stakeholder feedback: show number of cows / buffaloes right on the home screen  -->
+        <TextView android:id="@+id/herdCountLine" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="12dp" android:background="@drawable/bg_soft_green" android:padding="12dp" android:text="@string/herd_count_line" android:textColor="@color/green_ink" android:textSize="15sp" android:textStyle="bold"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <com.google.android.material.card.MaterialCardView android:id="@+id/tilePoultry" style="@style/Widget.Gadvasu.Card" android:layout_width="0dp" android:layout_height="150dp" android:layout_weight="1" android:layout_margin="6dp" android:clickable="true" android:focusable="true" app:rippleColor="@color/green_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🐔" android:textSize="34sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/poultry" android:textColor="@color/ink" android:textSize="18sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/poultry_sub" android:textColor="@color/muted" android:textSize="12sp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@+id/tileLivestock" style="@style/Widget.Gadvasu.Card" android:layout_width="0dp" android:layout_height="150dp" android:layout_weight="1" android:layout_margin="6dp" android:clickable="true" android:focusable="true" app:rippleColor="@color/green_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🐄" android:textSize="34sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/livestock" android:textColor="@color/ink" android:textSize="18sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/livestock_sub" android:textColor="@color/muted" android:textSize="12sp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <com.google.android.material.card.MaterialCardView android:id="@+id/tileGoatery" style="@style/Widget.Gadvasu.Card" android:layout_width="0dp" android:layout_height="150dp" android:layout_weight="1" android:layout_margin="6dp" android:clickable="true" android:focusable="true" app:rippleColor="@color/green_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🐐" android:textSize="34sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/goatery" android:textColor="@color/ink" android:textSize="18sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/goatery_sub" android:textColor="@color/muted" android:textSize="12sp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@+id/tileFishery" style="@style/Widget.Gadvasu.Card" android:layout_width="0dp" android:layout_height="150dp" android:layout_weight="1" android:layout_margin="6dp" android:clickable="true" android:focusable="true" app:rippleColor="@color/green_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🐟" android:textSize="34sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/fishery" android:textColor="@color/ink" android:textSize="18sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fishery_sub" android:textColor="@color/muted" android:textSize="12sp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

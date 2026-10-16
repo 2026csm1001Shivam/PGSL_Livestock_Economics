@@ -1,0 +1,43 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/paper" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/reports" android:textColor="@color/ink" android:textSize="24sp" android:textStyle="bold"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="horizontal">
+            <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_margin="4dp" android:hint="@string/enterprise">
+                <AutoCompleteTextView android:id="@+id/selectEnterprise" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none" android:textSize="16sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_margin="4dp" android:hint="@string/period">
+                <AutoCompleteTextView android:id="@+id/selectPeriod" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none" android:textSize="16sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:orientation="horizontal">
+            <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Material3.TextInputLayout.OutlinedBox" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_margin="4dp" android:hint="@string/from">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputFrom" android:layout_width="match_parent" android:layout_height="wrap_content" android:focusable="false" android:inputType="none" android:textSize="16sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Material3.TextInputLayout.OutlinedBox" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_margin="4dp" android:hint="@string/to">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputTo" android:layout_width="match_parent" android:layout_height="wrap_content" android:focusable="false" android:inputType="none" android:textSize="16sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:id="@+id/cardReportTotals" app:cardBackgroundColor="@color/green_soft" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/total_income" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtTotalIncome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/total_expenses" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtTotalExpenses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/net_profit" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtNetProfit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/green_ink"/>
+                </LinearLayout>
+                <TextView android:id="@+id/txtTrend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textColor="@color/muted" android:textSize="13sp" tools:text="▼ 3% vs previous period"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/income_expense_profit"/>
+        <TextView android:id="@+id/txtNoRecords" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_records" android:textColor="@color/muted" android:textSize="14sp" android:visibility="gone"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/reportRecycler" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" tools:itemCount="3" tools:listitem="@layout/item_report_row"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnExport" style="@style/Widget.Gadvasu.Button.Outlined" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/export_csv_excel"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

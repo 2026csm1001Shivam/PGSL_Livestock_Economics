@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">GADVASU Livestock Economics</string>
+    <!--  Navigation  -->
+    <string name="nav_home">Home</string>
+    <string name="nav_dashboard">Dash</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="change_language">Change language</string>
+    <!--  Language screen  -->
+    <string name="select_language">Select your language</string>
+    <string name="select_language_sub">Shown in all three scripts</string>
+    <string name="lang_en">English</string>
+    <string name="lang_hi">हिंदी (Hindi)</string>
+    <string name="lang_pa">ਪੰਜਾਬੀ (Punjabi)</string>
+    <!--  Login  -->
+    <string name="login">Login</string>
+    <string name="login_sub">Mobile number or Email ID</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="email_id">Email ID</string>
+    <string name="mobile_hint">98765 43210</string>
+    <string name="email_hint">name@example.com</string>
+    <string name="your_name_optional">Your name (optional)</string>
+    <string name="continue_btn">Continue</string>
+    <string name="new_user_sign_up">New user? Create account</string>
+    <string name="backup_contact">Backup mobile / email (for account recovery)</string>
+    <!--  Home  -->
+    <string name="choose_enterprise">Choose your enterprise</string>
+    <string name="poultry">Poultry</string>
+    <string name="livestock">Livestock</string>
+    <string name="goatery">Goatery</string>
+    <string name="fishery">Fishery</string>
+    <string name="poultry_sub">Layer (daily) · Broiler (batch)</string>
+    <string name="livestock_sub">Dairy · daily entry</string>
+    <string name="goatery_sub">Batch model</string>
+    <string name="fishery_sub">Batch model</string>
+    <string name="herd_count_line">Your herd: 0 cows · 0 buffaloes</string>
+    <!--  Daily entry (Livestock)  -->
+    <string name="daily_entry_livestock">Livestock: daily entry</string>
+    <string name="date">Date</string>
+    <string name="date_hint">07/10/2026</string>
+    <string name="animal_count">Animal count</string>
+    <string name="cows">Cows</string>
+    <string name="buffaloes">Buffaloes</string>
+    <string name="total_animals">Total animals</string>
+    <string name="production">Production</string>
+    <string name="milk_litres">Milk (litres)</string>
+    <string name="income">Income</string>
+    <string name="milk_sales">Milk sales</string>
+    <string name="by_products">By-products</string>
+    <string name="other_income">Other income</string>
+    <string name="expenses">Expenses</string>
+    <string name="feed">Feed</string>
+    <string name="electricity">Electricity</string>
+    <string name="labour">Labour</string>
+    <string name="vet_medicine">Vet / medicine</string>
+    <string name="water">Water</string>
+    <string name="other">Other</string>
+    <string name="note_optional">Note (optional)</string>
+    <string name="total_income">Total income</string>
+    <string name="total_expenses">Total expenses</string>
+    <string name="daily_profit">Daily profit</string>
+    <string name="profit_per_animal">Profit per animal</string>
+    <string name="save">Save</string>
+    <string name="rupee_dash">₹ ----</string>
+    <string name="zero">0</string>
+    <!--  Batches  -->
+    <string name="goatery_batch_list">Goatery: batch list</string>
+    <string name="start_batch">+ Start batch</string>
+    <string name="running">RUNNING</string>
+    <string name="completed">COMPLETED</string>
+    <string name="batch_name">Batch name</string>
+    <string name="batch_name_hint">Batch A</string>
+    <string name="start_date">Start date</string>
+    <string name="number_of_goats">Number of goats</string>
+    <string name="purchase_cost">Purchase cost (₹)</string>
+    <string name="pond_area">Pond area (acres, fishery only)</string>
+    <string name="start_batch_btn">Start batch</string>
+    <string name="batch_detail">Batch detail</string>
+    <string name="expenses_so_far">Expenses so far</string>
+    <string name="add_expense">Add expense</string>
+    <string name="save_expense">Save expense</string>
+    <string name="sold_close_batch">Sold, close batch</string>
+    <string name="close_batch">Close batch</string>
+    <string name="sale_date">Sale date</string>
+    <string name="amount_received">Amount received on sale (₹)</string>
+    <string name="batch_result">Batch result</string>
+    <string name="net_profit">Net profit</string>
+    <string name="total">Total</string>
+    <string name="duration_days">Duration (days)</string>
+    <string name="per_animal_cost">Cost per animal</string>
+    <string name="sample_batch_meta">Started 1 Jul · 20 goats</string>
+    <!--  Dashboard  -->
+    <string name="dashboard">Dashboard</string>
+    <string name="today_livestock">Today: Livestock</string>
+    <string name="profit">Profit</string>
+    <string name="expense">Expense</string>
+    <string name="running_batches">Running batches</string>
+    <string name="overall_totals">Overall totals</string>
+    <string name="all_enterprises">All enterprises</string>
+    <string name="trend_vs_last_week">vs last week</string>
+    <string name="no_running_batches">No running batch. Start one from Home.</string>
+    <!--  Reports  -->
+    <string name="reports">Reports</string>
+    <string name="enterprise">Enterprise</string>
+    <string name="period">Period</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="export_csv_excel">Export CSV / Excel</string>
+    <string name="income_expense_profit">Income / Expense / Profit</string>
+    <string name="no_records">No records for this filter.</string>
+    <!--  Settings  -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="account">Account</string>
+    <string name="logged_in_as">Logged in as</string>
+    <string name="logout">Logout</string>
+    <string name="data_storage">Data storage</string>
+    <string name="stored_on_device">Entries are saved on this phone first and synced to the cloud when online.</string>
+    <string name="cloud_status">Cloud sync: checking…</string>
+    <string name="clear_data">Clear my data</string>
+    <string name="about">About</string>
+    <string name="about_text">Helps farmers record daily income and expenses and see their real profit.</string>
+    <string name="daily_formula">Daily profit = income − expenses</string>
+    <string name="batch_formula">Batch profit = amount received − (purchase cost + all expenses)</string>
+    <string name="version">Version 1.0</string>
+</resources>

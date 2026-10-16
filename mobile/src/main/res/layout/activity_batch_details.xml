@@ -1,0 +1,107 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/paper" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:id="@+id/txtBatchName" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Batch A" android:textColor="@color/ink" android:textSize="24sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/txtBatchMeta" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="16dp" android:text="@string/sample_batch_meta" android:textColor="@color/muted" android:textSize="15sp"/>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:id="@+id/txtStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bg_pill_green" android:paddingHorizontal="10dp" android:paddingVertical="3dp" android:text="@string/running" android:textColor="@color/green_ink" android:textSize="11sp" android:textStyle="bold"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/purchase_cost" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtPurchaseCost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/duration_days" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/per_animal_cost" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtPerAnimalCost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expenses_so_far"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/feed" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtExpFeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/labour" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtExpLabour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/vet_medicine" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtExpVet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/electricity" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtExpElectricity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/water" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtExpWater" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/other" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtExpOther" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/total" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtExpTotal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp" android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:id="@+id/cardAddExpense" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_expense"/>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/date">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputExpDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none" android:textSize="18sp" android:focusable="false"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/feed">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputExpFeed" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/labour">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputExpLabour" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/vet_medicine">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputExpVet" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/electricity">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputExpElectricity" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/water">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputExpWater" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/other">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputExpOther" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/note_optional">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputExpNote" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView android:id="@+id/expError" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/red" android:textSize="14sp" android:visibility="gone"/>
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnSaveExpense" style="@style/Widget.Gadvasu.Button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/save_expense"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <!--  Shown only after the batch is closed (Figma "Batch result" screen)  -->
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:id="@+id/cardBatchResult" app:cardBackgroundColor="@color/amber_soft" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:visibility="gone" tools:visibility="visible">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/batch_result"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/amount_received" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtAmountReceived" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/total_expenses" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtTotalExpensesClosed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/net_profit" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtNetProfit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/green_ink"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/expenseRecycler" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" tools:itemCount="2" tools:listitem="@layout/item_expense"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnCloseBatch" style="@style/Widget.Gadvasu.Button" app:backgroundTint="@color/amber" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/sold_close_batch"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

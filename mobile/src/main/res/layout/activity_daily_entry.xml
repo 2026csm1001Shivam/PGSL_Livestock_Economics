@@ -1,0 +1,96 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/paper" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/daily_entry_livestock" android:textColor="@color/ink" android:textSize="24sp" android:textStyle="bold"/>
+        <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/date">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none" android:textSize="18sp" android:focusable="false" tools:text="@string/date_hint"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" app:cardBackgroundColor="@color/green_soft" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/animal_count"/>
+                <!--  Stakeholder feedback: count of cows and buffaloes  -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                    <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="6dp" android:layout_marginTop="8dp" android:hint="@string/cows">
+                        <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputCows" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" android:textSize="18sp"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="6dp" android:layout_marginTop="8dp" android:hint="@string/buffaloes">
+                        <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputBuffaloes" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" android:textSize="18sp"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/total_animals" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtTotalAnimals" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero" android:textColor="@color/ink" android:textSize="16sp" android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/production"/>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/milk_litres">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputMilk" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/income"/>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/milk_sales">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputMilkSales" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/by_products">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputByProducts" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/other_income">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputOtherIncome" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expenses"/>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/feed">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputFeed" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/electricity">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputElectricity" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/labour">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputLabour" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/vet_medicine">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputVet" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/water">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputWater" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/other">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputOtherExpense" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Gadvasu.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/note_optional">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/inputNote" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" android:textSize="18sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:id="@+id/cardLiveTotals" app:cardBackgroundColor="@color/amber_soft" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/total_income" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtTotalIncome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/total_expenses" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtTotalExpenses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/daily_profit" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtDailyProfit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/green_ink"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/profit_per_animal" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtProfitPerAnimal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView android:id="@+id/dailyError" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/red" android:textSize="14sp" android:visibility="gone"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnSave" style="@style/Widget.Gadvasu.Button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/save"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

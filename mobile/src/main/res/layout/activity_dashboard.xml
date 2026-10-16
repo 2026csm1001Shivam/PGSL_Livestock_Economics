@@ -1,0 +1,80 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/paper" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dashboard" android:textColor="@color/ink" android:textSize="24sp" android:textStyle="bold"/>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:id="@+id/cardToday" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/today_livestock"/>
+                <!--  Stakeholder feedback: herd count visible on the dashboard  -->
+                <TextView android:id="@+id/txtHerdCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:background="@drawable/bg_pill_green" android:paddingHorizontal="12dp" android:paddingVertical="4dp" android:text="@string/herd_count_line" android:textColor="@color/green_ink" android:textSize="13sp" android:textStyle="bold"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:orientation="horizontal">
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/income" android:textColor="@color/muted" android:textSize="13sp"/>
+                        <TextView android:id="@+id/txtTodayIncome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="18sp" android:textStyle="bold"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expense" android:textColor="@color/muted" android:textSize="13sp"/>
+                        <TextView android:id="@+id/txtTodayExpense" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="18sp" android:textStyle="bold"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profit" android:textColor="@color/muted" android:textSize="13sp"/>
+                        <TextView android:id="@+id/txtTodayProfit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/green_ink" android:textSize="18sp" android:textStyle="bold"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--  Peer feedback: simple trend indicator (e.g. "▲ 8% vs last week")  -->
+                <TextView android:id="@+id/txtTodayTrend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/trend_vs_last_week" android:textColor="@color/muted" android:textSize="13sp" tools:text="▲ 8% vs last week"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/running_batches"/>
+        <TextView android:id="@+id/txtNoBatches" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/no_running_batches" android:textColor="@color/muted" android:textSize="14sp" android:visibility="gone"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/runningBatchRecycler" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" tools:itemCount="2" tools:listitem="@layout/item_running_batch"/>
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:id="@+id/cardOverall" app:cardBackgroundColor="@color/amber_soft" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/overall_totals"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_enterprises" android:textColor="@color/muted" android:textSize="13sp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/total_income" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtTotalIncome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/total_expenses" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtTotalExpenses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="16sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/net_profit" android:textColor="@color/muted" android:textSize="16sp"/>
+                    <TextView android:id="@+id/txtNetProfit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_dash" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/green_ink"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <!--  Peer feedback: enterprise-wise comparison bars. Fill width of each bar from the ViewModel
+                 (LayoutParams.weight) or replace with MPAndroidChart BarChart later.  -->
+        <com.google.android.material.card.MaterialCardView style="@style/Widget.Gadvasu.Card" android:id="@+id/cardCompare" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Text.Gadvasu.SectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enterprise"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:gravity="center_vertical" android:orientation="horizontal">
+                    <TextView android:layout_width="90dp" android:layout_height="wrap_content" android:text="@string/poultry" android:textColor="@color/ink" android:textSize="14sp"/>
+                    <View android:id="@+id/barPoultry" android:layout_width="0dp" android:layout_height="14dp" android:layout_weight="0.5" android:background="@drawable/bg_pill_green"/>
+                    <View android:layout_width="0dp" android:layout_height="14dp" android:layout_weight="0.5"/>
+                    <TextView android:id="@+id/txtBarPoultry" android:layout_width="70dp" android:layout_height="wrap_content" android:gravity="end" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="13sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:gravity="center_vertical" android:orientation="horizontal">
+                    <TextView android:layout_width="90dp" android:layout_height="wrap_content" android:text="@string/livestock" android:textColor="@color/ink" android:textSize="14sp"/>
+                    <View android:id="@+id/barLivestock" android:layout_width="0dp" android:layout_height="14dp" android:layout_weight="0.8" android:background="@drawable/bg_pill_green"/>
+                    <View android:layout_width="0dp" android:layout_height="14dp" android:layout_weight="0.2"/>
+                    <TextView android:id="@+id/txtBarLivestock" android:layout_width="70dp" android:layout_height="wrap_content" android:gravity="end" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="13sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:gravity="center_vertical" android:orientation="horizontal">
+                    <TextView android:layout_width="90dp" android:layout_height="wrap_content" android:text="@string/goatery" android:textColor="@color/ink" android:textSize="14sp"/>
+                    <View android:id="@+id/barGoatery" android:layout_width="0dp" android:layout_height="14dp" android:layout_weight="0.6" android:background="@drawable/bg_pill_green"/>
+                    <View android:layout_width="0dp" android:layout_height="14dp" android:layout_weight="0.4"/>
+                    <TextView android:id="@+id/txtBarGoatery" android:layout_width="70dp" android:layout_height="wrap_content" android:gravity="end" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="13sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:gravity="center_vertical" android:orientation="horizontal">
+                    <TextView android:layout_width="90dp" android:layout_height="wrap_content" android:text="@string/fishery" android:textColor="@color/ink" android:textSize="14sp"/>
+                    <View android:id="@+id/barFishery" android:layout_width="0dp" android:layout_height="14dp" android:layout_weight="0.3" android:background="@drawable/bg_pill_green"/>
+                    <View android:layout_width="0dp" android:layout_height="14dp" android:layout_weight="0.7"/>
+                    <TextView android:id="@+id/txtBarFishery" android:layout_width="70dp" android:layout_height="wrap_content" android:gravity="end" android:text="@string/rupee_dash" android:textColor="@color/ink" android:textSize="13sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
