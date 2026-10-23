@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fishery_help">Rear fish for a period, record expenses, and enter the amount received when you sell them.</string>
+    <string name="seed_count">Number of fish seed (fingerlings)</string>
+    <string name="seed_cost">Fish seed cost</string>
+    <string name="pond_area">Pond area in acres (optional)</string>
+    <string name="fish">fish</string>
+    <string name="fish_unit">fish seed</string>
+    <string name="acres">acres</string>
+</resources>

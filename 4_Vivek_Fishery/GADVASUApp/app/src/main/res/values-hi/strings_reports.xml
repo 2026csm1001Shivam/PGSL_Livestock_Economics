@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="net_profit">शुद्ध लाभ</string>
+    <string name="net_loss">शुद्ध घाटा</string>
+    <string name="today_with_prod" formatted="true">आज, %1$s %2$s</string>
+    <string name="this_month">इस महीने</string>
+    <string name="last7">पिछले 7 दिन</string>
+    <string name="last30">पिछले 30 दिन</string>
+    <string name="all_time">अब तक कुल</string>
+    <string name="custom">अपनी तारीखें</string>
+    <string name="from">से</string>
+    <string name="to">तक</string>
+    <string name="no_data_yet">अभी कोई रिकॉर्ड नहीं। होम पर व्यवसाय चुनें और पहला रिकॉर्ड जोड़ें।</string>
+    <string name="total_expenses">कुल खर्च</string>
+    <string name="total_income">कुल आय</string>
+    <string name="daily_enterprises">दैनिक व्यवसाय</string>
+    <string name="batch_enterprises">बैच व्यवसाय</string>
+    <string name="overall">कुल योग</string>
+    <string name="overall_note">दैनिक रिकॉर्ड और पूरे हुए बैच। चालू बैच बिकने तक शामिल नहीं होते।</string>
+    <string name="no_entry_today">आज का रिकॉर्ड अभी नहीं है</string>
+    <string name="add_today">आज का रिकॉर्ड जोड़ें</string>
+    <string name="enterprise">व्यवसाय</string>
+    <string name="all">सभी</string>
+    <string name="period">अवधि</string>
+    <string name="records">रिकॉर्ड</string>
+    <string name="record">रिकॉर्ड</string>
+    <string name="daily_records">दैनिक रिकॉर्ड</string>
+    <string name="export_csv">CSV निर्यात करें (Excel में खुलता है)</string>
+    <string name="nothing_to_export">इस चयन के लिए निर्यात करने को कुछ नहीं</string>
+    <string name="daily_formula">दैनिक लाभ = दैनिक आय − दैनिक खर्च</string>
+    <string name="batch_formula">लाभ = प्राप्त राशि − बैच का कुल खर्च</string>
+    <string name="go_home">होम पर जाएं</string>
+    <string name="daily_income">दैनिक आय</string>
+    <string name="daily_expenses">दैनिक खर्च</string>
+    <string name="batch_sales">बैच बिक्री</string>
+    <string name="batch_expenses">बैच खर्च</string>
+    <string name="running_not_included">चालू बैच (योग में शामिल नहीं)</string>
+    <string name="sold_in_period">इस अवधि में बिके बैच</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fishery_help">ਇੱਕ ਮਿਆਦ ਤੱਕ ਮੱਛੀ ਪਾਲੋ, ਖਰਚ ਦਰਜ ਕਰੋ, ਅਤੇ ਵੇਚਣ ਤੇ ਪ੍ਰਾਪਤ ਰਕਮ ਭਰੋ।</string>
+    <string name="seed_count">ਮੱਛੀ ਬੀਜ ਦੀ ਗਿਣਤੀ</string>
+    <string name="seed_cost">ਮੱਛੀ ਬੀਜ ਦੀ ਲਾਗਤ</string>
+    <string name="pond_area">ਤਲਾਬ ਦਾ ਖੇਤਰ, ਏਕੜ ਵਿੱਚ (ਵਿਕਲਪਿਕ)</string>
+    <string name="fish">ਮੱਛੀ</string>
+    <string name="fish_unit">ਮੱਛੀ ਬੀਜ</string>
+    <string name="acres">ਏਕੜ</string>
+</resources>

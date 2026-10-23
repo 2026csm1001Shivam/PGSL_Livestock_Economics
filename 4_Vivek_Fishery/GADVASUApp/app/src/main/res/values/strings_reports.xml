@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="net_profit">Net profit</string>
+    <string name="net_loss">Net loss</string>
+    <string name="today_with_prod" formatted="true">Today, %1$s %2$s</string>
+    <string name="this_month">This month</string>
+    <string name="last7">Last 7 days</string>
+    <string name="last30">Last 30 days</string>
+    <string name="all_time">All time</string>
+    <string name="custom">Custom dates</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="no_data_yet">No records yet. Choose an enterprise on Home and add your first record.</string>
+    <string name="total_expenses">Total expenses</string>
+    <string name="total_income">Total income</string>
+    <string name="daily_enterprises">Daily enterprises</string>
+    <string name="batch_enterprises">Batch enterprises</string>
+    <string name="overall">Overall totals</string>
+    <string name="overall_note">Daily records plus completed batches. Running batches are not included until they are sold.</string>
+    <string name="no_entry_today">No record for today yet</string>
+    <string name="add_today">Add today’s record</string>
+    <string name="enterprise">Enterprise</string>
+    <string name="all">All</string>
+    <string name="period">Period</string>
+    <string name="records">records</string>
+    <string name="record">record</string>
+    <string name="daily_records">Daily records</string>
+    <string name="export_csv">Export CSV (opens in Excel)</string>
+    <string name="nothing_to_export">Nothing to export for this selection</string>
+    <string name="daily_formula">Daily profit = Daily income − Daily expenses</string>
+    <string name="batch_formula">Profit = Amount received − Total expenses of the batch</string>
+    <string name="go_home">Go to Home</string>
+    <string name="daily_income">Daily income</string>
+    <string name="daily_expenses">Daily expenses</string>
+    <string name="batch_sales">Batch sales</string>
+    <string name="batch_expenses">Batch expenses</string>
+    <string name="running_not_included">Running batches (not in totals)</string>
+    <string name="sold_in_period">Batches sold in this period</string>
+</resources>

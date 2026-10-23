@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fishery_help">एक अवधि तक मछली पालें, खर्च दर्ज करें, और बेचने पर प्राप्त राशि भरें।</string>
+    <string name="seed_count">मछली बीज की संख्या</string>
+    <string name="seed_cost">मछली बीज की लागत</string>
+    <string name="pond_area">तालाब का क्षेत्रफल, एकड़ में (वैकल्पिक)</string>
+    <string name="fish">मछली</string>
+    <string name="fish_unit">मछली बीज</string>
+    <string name="acres">एकड़</string>
+</resources>

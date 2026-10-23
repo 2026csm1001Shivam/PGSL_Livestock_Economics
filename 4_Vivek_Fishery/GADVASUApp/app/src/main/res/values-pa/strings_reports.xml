@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="net_profit">ਸ਼ੁੱਧ ਲਾਭ</string>
+    <string name="net_loss">ਸ਼ੁੱਧ ਘਾਟਾ</string>
+    <string name="today_with_prod" formatted="true">ਅੱਜ, %1$s %2$s</string>
+    <string name="this_month">ਇਸ ਮਹੀਨੇ</string>
+    <string name="last7">ਪਿਛਲੇ 7 ਦਿਨ</string>
+    <string name="last30">ਪਿਛਲੇ 30 ਦਿਨ</string>
+    <string name="all_time">ਹੁਣ ਤੱਕ ਕੁੱਲ</string>
+    <string name="custom">ਆਪਣੀਆਂ ਤਾਰੀਖਾਂ</string>
+    <string name="from">ਤੋਂ</string>
+    <string name="to">ਤੱਕ</string>
+    <string name="no_data_yet">ਅਜੇ ਕੋਈ ਰਿਕਾਰਡ ਨਹੀਂ। ਹੋਮ ਤੇ ਕਿੱਤਾ ਚੁਣੋ ਅਤੇ ਪਹਿਲਾ ਰਿਕਾਰਡ ਜੋੜੋ।</string>
+    <string name="total_expenses">ਕੁੱਲ ਖਰਚ</string>
+    <string name="total_income">ਕੁੱਲ ਆਮਦਨ</string>
+    <string name="daily_enterprises">ਰੋਜ਼ਾਨਾ ਕਿੱਤੇ</string>
+    <string name="batch_enterprises">ਬੈਚ ਕਿੱਤੇ</string>
+    <string name="overall">ਕੁੱਲ ਜੋੜ</string>
+    <string name="overall_note">ਰੋਜ਼ਾਨਾ ਰਿਕਾਰਡ ਅਤੇ ਪੂਰੇ ਹੋਏ ਬੈਚ। ਚੱਲ ਰਹੇ ਬੈਚ ਵਿਕਣ ਤੱਕ ਸ਼ਾਮਲ ਨਹੀਂ ਹੁੰਦੇ।</string>
+    <string name="no_entry_today">ਅੱਜ ਦਾ ਰਿਕਾਰਡ ਅਜੇ ਨਹੀਂ ਹੈ</string>
+    <string name="add_today">ਅੱਜ ਦਾ ਰਿਕਾਰਡ ਜੋੜੋ</string>
+    <string name="enterprise">ਕਿੱਤਾ</string>
+    <string name="all">ਸਾਰੇ</string>
+    <string name="period">ਮਿਆਦ</string>
+    <string name="records">ਰਿਕਾਰਡ</string>
+    <string name="record">ਰਿਕਾਰਡ</string>
+    <string name="daily_records">ਰੋਜ਼ਾਨਾ ਰਿਕਾਰਡ</string>
+    <string name="export_csv">CSV ਐਕਸਪੋਰਟ ਕਰੋ (Excel ਵਿੱਚ ਖੁੱਲ੍ਹਦਾ ਹੈ)</string>
+    <string name="nothing_to_export">ਇਸ ਚੋਣ ਲਈ ਐਕਸਪੋਰਟ ਕਰਨ ਲਈ ਕੁਝ ਨਹੀਂ</string>
+    <string name="daily_formula">ਰੋਜ਼ਾਨਾ ਲਾਭ = ਰੋਜ਼ਾਨਾ ਆਮਦਨ − ਰੋਜ਼ਾਨਾ ਖਰਚ</string>
+    <string name="batch_formula">ਲਾਭ = ਪ੍ਰਾਪਤ ਰਕਮ − ਬੈਚ ਦਾ ਕੁੱਲ ਖਰਚ</string>
+    <string name="go_home">ਹੋਮ ਤੇ ਜਾਓ</string>
+    <string name="daily_income">ਰੋਜ਼ਾਨਾ ਆਮਦਨ</string>
+    <string name="daily_expenses">ਰੋਜ਼ਾਨਾ ਖਰਚ</string>
+    <string name="batch_sales">ਬੈਚ ਵਿਕਰੀ</string>
+    <string name="batch_expenses">ਬੈਚ ਖਰਚ</string>
+    <string name="running_not_included">ਚੱਲ ਰਹੇ ਬੈਚ (ਜੋੜ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ)</string>
+    <string name="sold_in_period">ਇਸ ਮਿਆਦ ਵਿੱਚ ਵਿਕੇ ਬੈਚ</string>
+</resources>
