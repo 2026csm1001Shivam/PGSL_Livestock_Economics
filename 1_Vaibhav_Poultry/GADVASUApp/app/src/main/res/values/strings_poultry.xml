@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="poultry_note">Broiler (batch) and Layer (daily)</string>
+    <string name="broiler_help">Start a batch, add expenses while the birds grow, and enter the sale amount after about 45 days.</string>
+    <string name="layer_help">Record eggs, income and expenses every day. Profit is calculated per day and added up over time.</string>
+    <string name="eggs">Number of eggs</string>
+    <string name="egg_income">Egg income</string>
+    <string name="medicine">Medicine</string>
+    <string name="birds_count">Number of birds (chicks)</string>
+    <string name="chick_cost">Chick purchase cost</string>
+    <string name="bird">bird</string>
+    <string name="birds_unit">birds</string>
+    <string name="unit_eggs">eggs</string>
+</resources>

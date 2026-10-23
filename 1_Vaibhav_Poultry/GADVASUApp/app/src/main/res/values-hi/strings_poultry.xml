@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="poultry_note">ब्रॉयलर (बैच) और लेयर (दैनिक)</string>
+    <string name="broiler_help">बैच शुरू करें, पक्षियों के बढ़ने के दौरान खर्च जोड़ें, और लगभग 45 दिन बाद बिक्री राशि भरें।</string>
+    <string name="layer_help">रोज़ अंडे, आय और खर्च दर्ज करें। लाभ हर दिन निकलता है और समय के साथ जुड़ता है।</string>
+    <string name="eggs">अंडों की संख्या</string>
+    <string name="egg_income">अंडे की आय</string>
+    <string name="medicine">दवाई</string>
+    <string name="birds_count">पक्षियों (चूज़ों) की संख्या</string>
+    <string name="chick_cost">चूज़ों की खरीद लागत</string>
+    <string name="bird">पक्षी</string>
+    <string name="birds_unit">पक्षी</string>
+    <string name="unit_eggs">अंडे</string>
+</resources>

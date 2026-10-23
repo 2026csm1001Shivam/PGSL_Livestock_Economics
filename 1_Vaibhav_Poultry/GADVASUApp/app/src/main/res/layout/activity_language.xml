@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- First screen: choose English / Hindi / Punjabi -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingTop="44dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="24dp">
+
+        <TextView
+            style="@style/Text.Wordmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wordmark" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/Text.H1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvPrompt"
+            style="@style/Text.Muted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:text="@string/language_prompt_other"
+            android:lineSpacingMultiplier="1.3"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/btnEn"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_langbtn"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lang_en_native"
+                android:textColor="@color/ink"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Text.Muted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lang_en_en" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnHi"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_langbtn"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lang_hi_native"
+                android:textColor="@color/ink"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Text.Muted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lang_hi_en" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnPa"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_langbtn"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lang_pa_native"
+                android:textColor="@color/ink"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/Text.Muted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lang_pa_en" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

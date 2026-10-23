@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_language">ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="continue_btn">ਅੱਗੇ ਵਧੋ</string>
+    <string name="login">ਲੌਗਇਨ</string>
+    <string name="login_help">ਆਪਣਾ ਮੋਬਾਈਲ ਨੰਬਰ ਜਾਂ ਈਮੇਲ ਆਈਡੀ ਦਰਜ ਕਰੋ ਅਤੇ ਆਪਣੇ ਫਾਰਮ ਦੇ ਰਿਕਾਰਡ ਖੋਲ੍ਹੋ।</string>
+    <string name="mobile">ਮੋਬਾਈਲ ਨੰਬਰ</string>
+    <string name="email">ਈਮੇਲ ਆਈਡੀ</string>
+    <string name="your_name">ਤੁਹਾਡਾ ਨਾਮ (ਵਿਕਲਪਿਕ)</string>
+    <string name="login_invalid_mobile">ਸਹੀ 10 ਅੰਕਾਂ ਦਾ ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ</string>
+    <string name="login_invalid_email">ਸਹੀ ਈਮੇਲ ਆਈਡੀ ਦਰਜ ਕਰੋ</string>
+</resources>

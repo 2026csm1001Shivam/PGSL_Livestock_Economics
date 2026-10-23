@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_language">अपनी भाषा चुनें</string>
+    <string name="continue_btn">आगे बढ़ें</string>
+    <string name="login">लॉगिन</string>
+    <string name="login_help">अपना मोबाइल नंबर या ईमेल आईडी दर्ज करें और अपने फार्म के रिकॉर्ड खोलें।</string>
+    <string name="mobile">मोबाइल नंबर</string>
+    <string name="email">ईमेल आईडी</string>
+    <string name="your_name">आपका नाम (वैकल्पिक)</string>
+    <string name="login_invalid_mobile">सही 10 अंकों का मोबाइल नंबर दर्ज करें</string>
+    <string name="login_invalid_email">सही ईमेल आईडी दर्ज करें</string>
+</resources>

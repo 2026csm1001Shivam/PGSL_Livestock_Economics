@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_language">Select your language</string>
+    <string name="continue_btn">Continue</string>
+    <string name="login">Login</string>
+    <string name="login_help">Enter your mobile number or email ID to open your farm records.</string>
+    <string name="mobile">Mobile number</string>
+    <string name="email">Email ID</string>
+    <string name="your_name">Your name (optional)</string>
+    <string name="login_invalid_mobile">Enter a valid 10-digit mobile number</string>
+    <string name="login_invalid_email">Enter a valid email ID</string>
+    <string name="select_language_en" translatable="false">Select your language</string>
+    <string name="language_prompt_other" translatable="false">अपनी भाषा चुनें\nਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="lang_en_native" translatable="false">English</string>
+    <string name="lang_hi_native" translatable="false">हिंदी</string>
+    <string name="lang_pa_native" translatable="false">ਪੰਜਾਬੀ</string>
+    <string name="lang_en_en" translatable="false">English</string>
+    <string name="lang_hi_en" translatable="false">Hindi</string>
+    <string name="lang_pa_en" translatable="false">Punjabi</string>
+    <string name="hint_mobile" translatable="false">98765 43210</string>
+    <string name="hint_email" translatable="false">name@example.com</string>
+</resources>

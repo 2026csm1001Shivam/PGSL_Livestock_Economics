@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="poultry_note">ਬ੍ਰਾਇਲਰ (ਬੈਚ) ਅਤੇ ਲੇਅਰ (ਰੋਜ਼ਾਨਾ)</string>
+    <string name="broiler_help">ਬੈਚ ਸ਼ੁਰੂ ਕਰੋ, ਪੰਛੀਆਂ ਦੇ ਵਧਣ ਦੌਰਾਨ ਖਰਚ ਜੋੜੋ, ਅਤੇ ਲਗਭਗ 45 ਦਿਨ ਬਾਅਦ ਵਿਕਰੀ ਰਕਮ ਭਰੋ।</string>
+    <string name="layer_help">ਰੋਜ਼ ਆਂਡੇ, ਆਮਦਨ ਅਤੇ ਖਰਚ ਦਰਜ ਕਰੋ। ਲਾਭ ਹਰ ਦਿਨ ਨਿਕਲਦਾ ਹੈ ਅਤੇ ਸਮੇਂ ਨਾਲ ਜੁੜਦਾ ਹੈ।</string>
+    <string name="eggs">ਆਂਡਿਆਂ ਦੀ ਗਿਣਤੀ</string>
+    <string name="egg_income">ਆਂਡਿਆਂ ਦੀ ਆਮਦਨ</string>
+    <string name="medicine">ਦਵਾਈ</string>
+    <string name="birds_count">ਪੰਛੀਆਂ (ਚੂਚਿਆਂ) ਦੀ ਗਿਣਤੀ</string>
+    <string name="chick_cost">ਚੂਚਿਆਂ ਦੀ ਖਰੀਦ ਲਾਗਤ</string>
+    <string name="bird">ਪੰਛੀ</string>
+    <string name="birds_unit">ਪੰਛੀ</string>
+    <string name="unit_eggs">ਆਂਡੇ</string>
+</resources>
