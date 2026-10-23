@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App theme: follows the phone's light / dark setting, like the prototype -->
+    <style name="Theme.Gadvasu" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green_ink</item>
+        <item name="colorOnPrimary">@color/on_green</item>
+        <item name="colorSecondary">@color/green</item>
+        <item name="colorSecondaryVariant">@color/green_ink</item>
+        <item name="colorOnSecondary">@color/on_green</item>
+        <item name="colorSurface">@color/card</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="colorError">@color/red</item>
+        <item name="android:colorBackground">@color/paper</item>
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:textColorPrimary">@color/ink</item>
+        <item name="android:textColorSecondary">@color/muted</item>
+        <item name="android:statusBarColor">@color/paper</item>
+        <item name="android:windowLightStatusBar">@bool/light_status_bar</item>
+        <item name="materialButtonStyle">@style/Widget.Gadvasu.Button</item>
+    </style>
+
+    <!-- ===== Text ===== -->
+    <style name="Text" />
+    <style name="Text.H1">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.H2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.H3">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.Body">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.Muted">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/muted</item>
+    </style>
+    <style name="Text.Tiny">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/muted</item>
+    </style>
+    <style name="Text.Label">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.Wordmark">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+    <style name="Text.Error">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="Text.Section">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Amount">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.Amount.Sub">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Text.Amount.Grand">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="Text.GrandLabel">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.TileName">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.Rupee">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/muted</item>
+    </style>
+
+    <!-- ===== Inputs ===== -->
+    <style name="Widget.Gadvasu.Input" parent="">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textColorHint">@color/line_strong</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style>
+    <style name="Widget.Gadvasu.Input.Money">
+        <item name="android:paddingStart">30dp</item>
+    </style>
+    <style name="Widget.Gadvasu.Input.Date">
+        <item name="android:drawableEnd">@drawable/ic_calendar_muted</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="Widget.Gadvasu.Input.Multi">
+        <item name="android:minHeight">64dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">top|start</item>
+    </style>
+
+    <!-- ===== Buttons ===== -->
+    <style name="Widget.Gadvasu.Button" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/green</item>
+        <item name="android:textColor">@color/on_green</item>
+        <item name="iconTint">@color/on_green</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconSize">20dp</item>
+        <item name="iconPadding">8dp</item>
+    </style>
+    <style name="Widget.Gadvasu.Button.Small">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Widget.Gadvasu.Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="strokeColor">@color/green</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="backgroundTint">@color/card</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="iconTint">@color/green</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconSize">20dp</item>
+        <item name="iconPadding">8dp</item>
+    </style>
+    <style name="Widget.Gadvasu.Button.Secondary.Small">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Widget.Gadvasu.Button.Amber" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="strokeColor">@color/amber</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="backgroundTint">@color/amber_soft</item>
+        <item name="android:textColor">@color/amber_ink</item>
+    </style>
+
+    <style name="Widget.Gadvasu.Button.Ghost" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="strokeColor">@color/line</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="iconTint">@color/muted</item>
+        <item name="iconSize">18dp</item>
+    </style>
+
+    <style name="Widget.Gadvasu.Button.Danger" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="strokeColor">@color/line</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="iconTint">@color/red</item>
+        <item name="iconSize">18dp</item>
+    </style>
+
+    <!-- Segmented control on the login screen -->
+    <style name="Widget.Gadvasu.Segment" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">44dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="strokeColor">@color/line</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="backgroundTint">@color/segment_bg</item>
+        <item name="android:textColor">@color/segment_text</item>
+    </style>
+
+    <!-- Enterprise tile on Home / Poultry -->
+    <style name="Widget.Gadvasu.Tile" parent="">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/bg_tile</item>
+        <item name="android:minHeight">150dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GADVASU Livestock Economics</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_name" formatted="true">Welcome, %1$s</string>
+    <string name="choose_enterprise">Choose your enterprise</string>
+    <string name="poultry">Poultry</string>
+    <string name="livestock">Livestock</string>
+    <string name="goatery">Goatery</string>
+    <string name="fishery">Fishery</string>
+    <string name="broiler">Broiler</string>
+    <string name="layer">Layer</string>
+    <string name="daily_model">Daily record</string>
+    <string name="batch_model">Batch, profit after sale</string>
+    <string name="date">Date</string>
+    <string name="production">Production</string>
+    <string name="income">Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="profit">Profit</string>
+    <string name="loss">Loss</string>
+    <string name="other_income">Other income</string>
+    <string name="feed">Feed</string>
+    <string name="electricity">Electricity</string>
+    <string name="labour">Labour</string>
+    <string name="other">Other expenses</string>
+    <string name="note">Note (optional)</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="update">Update</string>
+    <string name="delete_">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="confirm_delete">Delete this record?</string>
+    <string name="today">Today</string>
+    <string name="result_for" formatted="true">Result for %1$s</string>
+    <string name="recent_records">Recent records</string>
+    <string name="no_records">No records yet. Add your first one above.</string>
+    <string name="no_records_period">No records in this period.</string>
+    <string name="editing_record">Editing the record for this date</string>
+    <string name="enter_date">Choose a date</string>
+    <string name="enter_something">Enter at least one amount</string>
+    <string name="language">Language</string>
+    <string name="change_language">Change language</string>
+    <string name="account">Account</string>
+    <string name="logged_in_as" formatted="true">Logged in as %1$s</string>
+    <string name="logout">Logout</string>
+    <string name="data_storage">Data</string>
+    <string name="stored_on_device">Records are saved on this device and open again on your next visit.</string>
+    <string name="cloud_off">Cloud backup is not available here</string>
+    <string name="clear_data">Delete all my records</string>
+    <string name="confirm_clear">Delete all records for this account? This cannot be undone.</string>
+    <string name="cleared">All records deleted</string>
+    <string name="about">About</string>
+    <string name="about_text">Livestock economics record-keeping app for GADVASU, Ludhiana. Two profitability models: daily (Livestock, Layer) and after-sale batch (Broiler, Goatery, Fishery).</string>
+    <string name="see_all">See all in Reports</string>
+    <string name="version" formatted="true">Version %1$s</string>
+    <string name="app_short" translatable="false">GADVASU Livestock</string>
+    <string name="wordmark" translatable="false">GADVASU</string>
+    <string name="hint_zero" translatable="false">0</string>
+    <string name="rupee" translatable="false">₹</string>
+</resources>

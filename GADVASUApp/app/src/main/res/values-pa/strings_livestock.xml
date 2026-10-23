@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="livestock_help">ਆਪਣੇ ਪਸ਼ੂ, ਅੱਜ ਦੇ ਭਾਅ ਤੇ ਵਿਕਿਆ ਦੁੱਧ ਅਤੇ ਰੋਜ਼ਾਨਾ ਖਰਚ ਦਰਜ ਕਰੋ।</string>
+    <string name="byproduct_income">ਉਪ-ਉਤਪਾਦ ਵਿਕਰੀ (ਗੋਹਾ, ਵੱਛੇ ਆਦਿ)</string>
+    <string name="unit_litres">ਲੀਟਰ</string>
+    <string name="your_animals">ਤੁਹਾਡੇ ਪਸ਼ੂ</string>
+    <string name="cows_count">ਗਾਵਾਂ ਦੀ ਗਿਣਤੀ</string>
+    <string name="buffaloes_count">ਮੱਝਾਂ ਦੀ ਗਿਣਤੀ</string>
+    <string name="milk_income_head">ਅੱਜ ਵਿਕਿਆ ਦੁੱਧ</string>
+    <string name="milk_rate_help">ਹਰ ਕਿਸਮ ਦੇ ਦੁੱਧ ਲਈ ਲੀਟਰ ਅਤੇ ਅੱਜ ਦਾ ਪ੍ਰਤੀ ਲੀਟਰ ਭਾਅ ਦਰਜ ਕਰੋ।</string>
+    <string name="cow_milk">ਗਾਂ ਦਾ ਦੁੱਧ</string>
+    <string name="buffalo_milk">ਮੱਝ ਦਾ ਦੁੱਧ</string>
+    <string name="litres">ਲੀਟਰ</string>
+    <string name="price_per_litre">ਪ੍ਰਤੀ ਲੀਟਰ ਭਾਅ</string>
+    <string name="cow_milk_sales">ਗਾਂ ਦੇ ਦੁੱਧ ਦੀ ਵਿਕਰੀ</string>
+    <string name="buffalo_milk_sales">ਮੱਝ ਦੇ ਦੁੱਧ ਦੀ ਵਿਕਰੀ</string>
+    <string name="total_milk_sales">ਕੁੱਲ ਦੁੱਧ ਵਿਕਰੀ</string>
+    <string name="more_income">ਉਪ-ਉਤਪਾਦ ਅਤੇ ਹੋਰ ਆਮਦਨ</string>
+    <string name="feeds">ਫੀਡ / ਚਾਰਾ</string>
+    <string name="feeds_help">ਅੱਜ ਵਰਤੀ ਹਰ ਫੀਡ ਅਤੇ ਉਸਦੀ ਕੀਮਤ ਜੋੜੋ।</string>
+    <string name="feed_name">ਫੀਡ ਦਾ ਨਾਮ</string>
+    <string name="feed_name_hint">ਜਿਵੇਂ ਸਾਈਲੇਜ</string>
+    <string name="price">ਕੀਮਤ</string>
+    <string name="add_feed">ਇੱਕ ਹੋਰ ਫੀਡ ਜੋੜੋ</string>
+    <string name="total_feed">ਕੁੱਲ ਫੀਡ</string>
+    <string name="enter_feed_name">ਫੀਡ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ</string>
+    <string name="other_expenses_head">ਹੋਰ ਰੋਜ਼ਾਨਾ ਖਰਚ</string>
+    <string name="prefilled">ਪਸ਼ੂਆਂ ਦੀ ਗਿਣਤੀ ਅਤੇ ਦੁੱਧ ਦੇ ਭਾਅ ਪਿਛਲੇ ਰਿਕਾਰਡ ਤੋਂ ਭਰੇ ਗਏ ਹਨ।</string>
+    <string name="cows_unit">ਗਾਵਾਂ</string>
+    <string name="buffaloes_unit">ਮੱਝਾਂ</string>
+</resources>

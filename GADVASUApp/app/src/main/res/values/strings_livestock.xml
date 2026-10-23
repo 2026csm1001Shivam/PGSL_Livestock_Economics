@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="livestock_help">Record your animals, milk sold at today’s price and daily expenses.</string>
+    <string name="byproduct_income">By-product sales (dung, calves, etc.)</string>
+    <string name="unit_litres">L</string>
+    <string name="your_animals">Your animals</string>
+    <string name="cows_count">Number of cows</string>
+    <string name="buffaloes_count">Number of buffaloes</string>
+    <string name="milk_income_head">Milk sold today</string>
+    <string name="milk_rate_help">Enter the litres and today’s price per litre for each type of milk.</string>
+    <string name="cow_milk">Cow milk</string>
+    <string name="buffalo_milk">Buffalo milk</string>
+    <string name="litres">Litres</string>
+    <string name="price_per_litre">Price per litre</string>
+    <string name="cow_milk_sales">Cow milk sales</string>
+    <string name="buffalo_milk_sales">Buffalo milk sales</string>
+    <string name="total_milk_sales">Total milk sales</string>
+    <string name="more_income">By-products and other income</string>
+    <string name="feeds">Feeds</string>
+    <string name="feeds_help">Add each feed you used today and its price.</string>
+    <string name="feed_name">Feed name</string>
+    <string name="feed_name_hint">e.g. Silage</string>
+    <string name="price">Price</string>
+    <string name="add_feed">Add another feed</string>
+    <string name="total_feed">Total feed</string>
+    <string name="enter_feed_name">Enter the feed name</string>
+    <string name="other_expenses_head">Other daily expenses</string>
+    <string name="prefilled">Animal numbers and milk prices are filled in from your last record.</string>
+    <string name="cows_unit">cows</string>
+    <string name="buffaloes_unit">buffaloes</string>
+</resources>

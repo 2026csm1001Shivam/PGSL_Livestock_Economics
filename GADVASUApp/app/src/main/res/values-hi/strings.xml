@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GADVASU पशुधन अर्थशास्त्र</string>
+    <string name="home">होम</string>
+    <string name="dashboard">डैशबोर्ड</string>
+    <string name="reports">रिपोर्ट</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="welcome">स्वागत है</string>
+    <string name="welcome_name" formatted="true">स्वागत है, %1$s</string>
+    <string name="choose_enterprise">अपना व्यवसाय चुनें</string>
+    <string name="poultry">मुर्गी पालन</string>
+    <string name="livestock">पशुधन</string>
+    <string name="goatery">बकरी पालन</string>
+    <string name="fishery">मछली पालन</string>
+    <string name="broiler">ब्रॉयलर</string>
+    <string name="layer">लेयर</string>
+    <string name="daily_model">दैनिक रिकॉर्ड</string>
+    <string name="batch_model">बैच, बिक्री के बाद लाभ</string>
+    <string name="date">तारीख</string>
+    <string name="production">उत्पादन</string>
+    <string name="income">आय</string>
+    <string name="expenses">खर्च</string>
+    <string name="profit">लाभ</string>
+    <string name="loss">घाटा</string>
+    <string name="other_income">अन्य आय</string>
+    <string name="feed">चारा / फ़ीड</string>
+    <string name="electricity">बिजली</string>
+    <string name="labour">मज़दूरी</string>
+    <string name="other">अन्य खर्च</string>
+    <string name="note">टिप्पणी (वैकल्पिक)</string>
+    <string name="save">सहेजें</string>
+    <string name="saved">सहेज लिया</string>
+    <string name="update">अपडेट करें</string>
+    <string name="delete_">हटाएं</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="back">वापस</string>
+    <string name="confirm_delete">यह रिकॉर्ड हटाएं?</string>
+    <string name="today">आज</string>
+    <string name="result_for" formatted="true">परिणाम: %1$s</string>
+    <string name="recent_records">हाल के रिकॉर्ड</string>
+    <string name="no_records">अभी कोई रिकॉर्ड नहीं। ऊपर पहला रिकॉर्ड जोड़ें।</string>
+    <string name="no_records_period">इस अवधि में कोई रिकॉर्ड नहीं।</string>
+    <string name="editing_record">इस तारीख का रिकॉर्ड बदल रहे हैं</string>
+    <string name="enter_date">तारीख चुनें</string>
+    <string name="enter_something">कम से कम एक राशि दर्ज करें</string>
+    <string name="language">भाषा</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="account">खाता</string>
+    <string name="logged_in_as" formatted="true">लॉगिन: %1$s</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="data_storage">डेटा</string>
+    <string name="stored_on_device">रिकॉर्ड इस डिवाइस पर सहेजे जाते हैं और अगली बार फिर खुलते हैं।</string>
+    <string name="cloud_off">यहाँ क्लाउड बैकअप उपलब्ध नहीं है</string>
+    <string name="clear_data">मेरे सभी रिकॉर्ड हटाएं</string>
+    <string name="confirm_clear">इस खाते के सभी रिकॉर्ड हटाएं? इसे वापस नहीं किया जा सकता।</string>
+    <string name="cleared">सभी रिकॉर्ड हटा दिए गए</string>
+    <string name="about">जानकारी</string>
+    <string name="about_text">GADVASU, लुधियाना के लिए पशुधन अर्थशास्त्र रिकॉर्ड ऐप। दो लाभ मॉडल: दैनिक (पशुधन, लेयर) और बिक्री के बाद बैच (ब्रॉयलर, बकरी, मछली)।</string>
+    <string name="see_all">सभी रिकॉर्ड रिपोर्ट में देखें</string>
+    <string name="version" formatted="true">संस्करण %1$s</string>
+</resources>

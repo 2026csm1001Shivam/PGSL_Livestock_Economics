@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GADVASU ਪਸ਼ੂਧਨ ਅਰਥਸ਼ਾਸਤਰ</string>
+    <string name="home">ਹੋਮ</string>
+    <string name="dashboard">ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="reports">ਰਿਪੋਰਟ</string>
+    <string name="settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="welcome">ਜੀ ਆਇਆਂ ਨੂੰ</string>
+    <string name="welcome_name" formatted="true">ਜੀ ਆਇਆਂ ਨੂੰ, %1$s</string>
+    <string name="choose_enterprise">ਆਪਣਾ ਕਿੱਤਾ ਚੁਣੋ</string>
+    <string name="poultry">ਮੁਰਗੀ ਪਾਲਣ</string>
+    <string name="livestock">ਪਸ਼ੂਧਨ</string>
+    <string name="goatery">ਬੱਕਰੀ ਪਾਲਣ</string>
+    <string name="fishery">ਮੱਛੀ ਪਾਲਣ</string>
+    <string name="broiler">ਬ੍ਰਾਇਲਰ</string>
+    <string name="layer">ਲੇਅਰ</string>
+    <string name="daily_model">ਰੋਜ਼ਾਨਾ ਰਿਕਾਰਡ</string>
+    <string name="batch_model">ਬੈਚ, ਵਿਕਰੀ ਤੋਂ ਬਾਅਦ ਲਾਭ</string>
+    <string name="date">ਤਾਰੀਖ</string>
+    <string name="production">ਉਤਪਾਦਨ</string>
+    <string name="income">ਆਮਦਨ</string>
+    <string name="expenses">ਖਰਚ</string>
+    <string name="profit">ਲਾਭ</string>
+    <string name="loss">ਘਾਟਾ</string>
+    <string name="other_income">ਹੋਰ ਆਮਦਨ</string>
+    <string name="feed">ਫੀਡ / ਚਾਰਾ</string>
+    <string name="electricity">ਬਿਜਲੀ</string>
+    <string name="labour">ਮਜ਼ਦੂਰੀ</string>
+    <string name="other">ਹੋਰ ਖਰਚ</string>
+    <string name="note">ਨੋਟ (ਵਿਕਲਪਿਕ)</string>
+    <string name="save">ਸੇਵ ਕਰੋ</string>
+    <string name="saved">ਸੇਵ ਹੋ ਗਿਆ</string>
+    <string name="update">ਅੱਪਡੇਟ ਕਰੋ</string>
+    <string name="delete_">ਮਿਟਾਓ</string>
+    <string name="cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="back">ਵਾਪਸ</string>
+    <string name="confirm_delete">ਇਹ ਰਿਕਾਰਡ ਮਿਟਾਉਣਾ ਹੈ?</string>
+    <string name="today">ਅੱਜ</string>
+    <string name="result_for" formatted="true">ਨਤੀਜਾ: %1$s</string>
+    <string name="recent_records">ਹਾਲੀਆ ਰਿਕਾਰਡ</string>
+    <string name="no_records">ਅਜੇ ਕੋਈ ਰਿਕਾਰਡ ਨਹੀਂ। ਉੱਪਰ ਪਹਿਲਾ ਰਿਕਾਰਡ ਜੋੜੋ।</string>
+    <string name="no_records_period">ਇਸ ਮਿਆਦ ਵਿੱਚ ਕੋਈ ਰਿਕਾਰਡ ਨਹੀਂ।</string>
+    <string name="editing_record">ਇਸ ਤਾਰੀਖ ਦਾ ਰਿਕਾਰਡ ਬਦਲ ਰਹੇ ਹੋ</string>
+    <string name="enter_date">ਤਾਰੀਖ ਚੁਣੋ</string>
+    <string name="enter_something">ਘੱਟੋ-ਘੱਟ ਇੱਕ ਰਕਮ ਦਰਜ ਕਰੋ</string>
+    <string name="language">ਭਾਸ਼ਾ</string>
+    <string name="change_language">ਭਾਸ਼ਾ ਬਦਲੋ</string>
+    <string name="account">ਖਾਤਾ</string>
+    <string name="logged_in_as" formatted="true">ਲੌਗਇਨ: %1$s</string>
+    <string name="logout">ਲੌਗਆਊਟ</string>
+    <string name="data_storage">ਡਾਟਾ</string>
+    <string name="stored_on_device">ਰਿਕਾਰਡ ਇਸ ਡਿਵਾਈਸ ਤੇ ਸੇਵ ਹੁੰਦੇ ਹਨ ਅਤੇ ਅਗਲੀ ਵਾਰ ਫਿਰ ਖੁੱਲ੍ਹਦੇ ਹਨ।</string>
+    <string name="cloud_off">ਇੱਥੇ ਕਲਾਊਡ ਬੈਕਅੱਪ ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <string name="clear_data">ਮੇਰੇ ਸਾਰੇ ਰਿਕਾਰਡ ਮਿਟਾਓ</string>
+    <string name="confirm_clear">ਇਸ ਖਾਤੇ ਦੇ ਸਾਰੇ ਰਿਕਾਰਡ ਮਿਟਾਉਣੇ ਹਨ? ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ।</string>
+    <string name="cleared">ਸਾਰੇ ਰਿਕਾਰਡ ਮਿਟਾ ਦਿੱਤੇ ਗਏ</string>
+    <string name="about">ਜਾਣਕਾਰੀ</string>
+    <string name="about_text">GADVASU, ਲੁਧਿਆਣਾ ਲਈ ਪਸ਼ੂਧਨ ਅਰਥਸ਼ਾਸਤਰ ਰਿਕਾਰਡ ਐਪ। ਦੋ ਲਾਭ ਮਾਡਲ: ਰੋਜ਼ਾਨਾ (ਪਸ਼ੂਧਨ, ਲੇਅਰ) ਅਤੇ ਵਿਕਰੀ ਤੋਂ ਬਾਅਦ ਬੈਚ (ਬ੍ਰਾਇਲਰ, ਬੱਕਰੀ, ਮੱਛੀ)।</string>
+    <string name="see_all">ਸਾਰੇ ਰਿਕਾਰਡ ਰਿਪੋਰਟ ਵਿੱਚ ਦੇਖੋ</string>
+    <string name="version" formatted="true">ਵਰਜਨ %1$s</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="livestock_help">अपने पशु, आज के भाव पर बिका दूध और दैनिक खर्च दर्ज करें।</string>
+    <string name="byproduct_income">उप-उत्पाद बिक्री (गोबर, बछड़े आदि)</string>
+    <string name="unit_litres">लीटर</string>
+    <string name="your_animals">आपके पशु</string>
+    <string name="cows_count">गायों की संख्या</string>
+    <string name="buffaloes_count">भैंसों की संख्या</string>
+    <string name="milk_income_head">आज बिका दूध</string>
+    <string name="milk_rate_help">हर प्रकार के दूध के लिए लीटर और आज का प्रति लीटर भाव दर्ज करें।</string>
+    <string name="cow_milk">गाय का दूध</string>
+    <string name="buffalo_milk">भैंस का दूध</string>
+    <string name="litres">लीटर</string>
+    <string name="price_per_litre">प्रति लीटर भाव</string>
+    <string name="cow_milk_sales">गाय के दूध की बिक्री</string>
+    <string name="buffalo_milk_sales">भैंस के दूध की बिक्री</string>
+    <string name="total_milk_sales">कुल दूध बिक्री</string>
+    <string name="more_income">उप-उत्पाद और अन्य आय</string>
+    <string name="feeds">फ़ीड / चारा</string>
+    <string name="feeds_help">आज इस्तेमाल किया हर फ़ीड और उसकी कीमत जोड़ें।</string>
+    <string name="feed_name">फ़ीड का नाम</string>
+    <string name="feed_name_hint">जैसे साइलेज</string>
+    <string name="price">कीमत</string>
+    <string name="add_feed">एक और फ़ीड जोड़ें</string>
+    <string name="total_feed">कुल फ़ीड</string>
+    <string name="enter_feed_name">फ़ीड का नाम दर्ज करें</string>
+    <string name="other_expenses_head">अन्य दैनिक खर्च</string>
+    <string name="prefilled">पशुओं की संख्या और दूध के भाव पिछले रिकॉर्ड से भरे गए हैं।</string>
+    <string name="cows_unit">गाय</string>
+    <string name="buffaloes_unit">भैंस</string>
+</resources>
