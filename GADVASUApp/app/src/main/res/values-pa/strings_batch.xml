@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="goatery_help">ਇੱਕ ਮਿਆਦ ਤੱਕ ਬੱਕਰੀਆਂ ਪਾਲੋ, ਖਰਚ ਦਰਜ ਕਰੋ, ਅਤੇ ਵੇਚਣ ਤੇ ਪ੍ਰਾਪਤ ਰਕਮ ਭਰੋ।</string>
+    <string name="vet">ਪਸ਼ੂ ਡਾਕਟਰ / ਦਵਾਈ</string>
+    <string name="water">ਪਾਣੀ</string>
+    <string name="purchase_cost">ਖਰੀਦ ਲਾਗਤ</string>
+    <string name="confirm_delete_batch">ਇਹ ਬੈਚ ਅਤੇ ਇਸਦੇ ਸਾਰੇ ਰਿਕਾਰਡ ਮਿਟਾਉਣੇ ਹਨ?</string>
+    <string name="no_batches">ਅਜੇ ਕੋਈ ਬੈਚ ਨਹੀਂ। ਪਹਿਲਾ ਬੈਚ ਸ਼ੁਰੂ ਕਰੋ।</string>
+    <string name="start_batch">ਬੈਚ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="new_batch">ਨਵਾਂ ਬੈਚ</string>
+    <string name="batch_name">ਬੈਚ ਦਾ ਨਾਮ</string>
+    <string name="batch_word">ਬੈਚ</string>
+    <string name="start_date">ਸ਼ੁਰੂ ਦੀ ਤਾਰੀਖ</string>
+    <string name="goats_count">ਬੱਕਰੀਆਂ ਦੀ ਗਿਣਤੀ</string>
+    <string name="goat_cost">ਬੱਕਰੀਆਂ ਦੀ ਖਰੀਦ ਲਾਗਤ</string>
+    <string name="active_batches">ਚੱਲ ਰਹੇ ਬੈਚ</string>
+    <string name="completed_batches">ਪੂਰੇ ਹੋਏ ਬੈਚ</string>
+    <string name="running">ਚੱਲ ਰਿਹਾ</string>
+    <string name="completed">ਪੂਰਾ</string>
+    <string name="days">ਦਿਨ</string>
+    <string name="started">ਸ਼ੁਰੂ</string>
+    <string name="sold">ਵੇਚਿਆ</string>
+    <string name="add_expenses">ਖਰਚ ਜੋੜੋ</string>
+    <string name="expenses_so_far">ਹੁਣ ਤੱਕ ਦਾ ਖਰਚ</string>
+    <string name="amount_received">ਪ੍ਰਾਪਤ ਰਕਮ</string>
+    <string name="sale_date">ਵਿਕਰੀ ਦੀ ਤਾਰੀਖ</string>
+    <string name="close_batch">ਵੇਚ ਦਿੱਤਾ, ਬੈਚ ਬੰਦ ਕਰੋ</string>
+    <string name="close_batch_help">ਵਿਕਰੀ ਦੀ ਤਾਰੀਖ ਅਤੇ ਕੁੱਲ ਪ੍ਰਾਪਤ ਰਕਮ ਭਰੋ। ਅੰਤਿਮ ਲਾਭ ਇਸ ਬੈਚ ਵਿੱਚ ਦਰਜ ਸਾਰੇ ਖਰਚਿਆਂ ਤੋਂ ਕੱਢਿਆ ਜਾਂਦਾ ਹੈ।</string>
+    <string name="batch_result">ਬੈਚ ਦਾ ਨਤੀਜਾ</string>
+    <string name="expense_records">ਖਰਚ ਦੇ ਰਿਕਾਰਡ</string>
+    <string name="goat">ਬੱਕਰੀ</string>
+    <string name="goats_unit">ਬੱਕਰੀਆਂ</string>
+    <string name="cost_per_unit" formatted="true">ਪ੍ਰਤੀ %1$s ਲਾਗਤ</string>
+    <string name="profit_per_unit" formatted="true">ਪ੍ਰਤੀ %1$s ਲਾਭ</string>
+    <string name="reopen_batch">ਬੈਚ ਦੁਬਾਰਾ ਖੋਲ੍ਹੋ</string>
+    <string name="delete_batch">ਬੈਚ ਮਿਟਾਓ</string>
+    <string name="enter_amount">ਪ੍ਰਾਪਤ ਰਕਮ ਦਰਜ ਕਰੋ</string>
+    <string name="enter_count">ਗਿਣਤੀ ਦਰਜ ਕਰੋ</string>
+    <string name="not_sold_yet">ਅਜੇ ਵੇਚਿਆ ਨਹੀਂ</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="goatery_help">एक अवधि तक बकरियाँ पालें, खर्च दर्ज करें, और बेचने पर प्राप्त राशि भरें।</string>
+    <string name="vet">पशु चिकित्सा / दवाई</string>
+    <string name="water">पानी</string>
+    <string name="purchase_cost">खरीद लागत</string>
+    <string name="confirm_delete_batch">यह बैच और इसके सभी रिकॉर्ड हटाएं?</string>
+    <string name="no_batches">अभी कोई बैच नहीं। पहला बैच शुरू करें।</string>
+    <string name="start_batch">बैच शुरू करें</string>
+    <string name="new_batch">नया बैच</string>
+    <string name="batch_name">बैच का नाम</string>
+    <string name="batch_word">बैच</string>
+    <string name="start_date">शुरू की तारीख</string>
+    <string name="goats_count">बकरियों की संख्या</string>
+    <string name="goat_cost">बकरियों की खरीद लागत</string>
+    <string name="active_batches">चालू बैच</string>
+    <string name="completed_batches">पूरे हुए बैच</string>
+    <string name="running">चालू</string>
+    <string name="completed">पूरा</string>
+    <string name="days">दिन</string>
+    <string name="started">शुरू</string>
+    <string name="sold">बेचा</string>
+    <string name="add_expenses">खर्च जोड़ें</string>
+    <string name="expenses_so_far">अब तक का खर्च</string>
+    <string name="amount_received">प्राप्त राशि</string>
+    <string name="sale_date">बिक्री की तारीख</string>
+    <string name="close_batch">बेच दिया, बैच बंद करें</string>
+    <string name="close_batch_help">बिक्री की तारीख और कुल प्राप्त राशि भरें। अंतिम लाभ इस बैच में दर्ज सभी खर्चों से निकाला जाता है।</string>
+    <string name="batch_result">बैच का परिणाम</string>
+    <string name="expense_records">खर्च के रिकॉर्ड</string>
+    <string name="goat">बकरी</string>
+    <string name="goats_unit">बकरियाँ</string>
+    <string name="cost_per_unit" formatted="true">प्रति %1$s लागत</string>
+    <string name="profit_per_unit" formatted="true">प्रति %1$s लाभ</string>
+    <string name="reopen_batch">बैच फिर से खोलें</string>
+    <string name="delete_batch">बैच हटाएं</string>
+    <string name="enter_amount">प्राप्त राशि दर्ज करें</string>
+    <string name="enter_count">संख्या दर्ज करें</string>
+    <string name="not_sold_yet">अभी बेचा नहीं</string>
+</resources>

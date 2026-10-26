@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="goatery_help">Rear goats for a period, record expenses, and enter the amount received when you sell them.</string>
+    <string name="vet">Veterinary / medicine</string>
+    <string name="water">Water</string>
+    <string name="purchase_cost">Purchase cost</string>
+    <string name="confirm_delete_batch">Delete this batch and all its records?</string>
+    <string name="no_batches">No batches yet. Start your first batch.</string>
+    <string name="start_batch">Start batch</string>
+    <string name="new_batch">New batch</string>
+    <string name="batch_name">Batch name</string>
+    <string name="batch_word">Batch</string>
+    <string name="start_date">Start date</string>
+    <string name="goats_count">Number of goats</string>
+    <string name="goat_cost">Goat purchase cost</string>
+    <string name="active_batches">Running batches</string>
+    <string name="completed_batches">Completed batches</string>
+    <string name="running">Running</string>
+    <string name="completed">Completed</string>
+    <string name="days">days</string>
+    <string name="started">Started</string>
+    <string name="sold">Sold</string>
+    <string name="add_expenses">Add expenses</string>
+    <string name="expenses_so_far">Expenses so far</string>
+    <string name="amount_received">Amount received</string>
+    <string name="sale_date">Sale date</string>
+    <string name="close_batch">Sold, close batch</string>
+    <string name="close_batch_help">Enter the sale date and the total amount received. The final profit is calculated from all expenses recorded in this batch.</string>
+    <string name="batch_result">Batch result</string>
+    <string name="expense_records">Expense records</string>
+    <string name="goat">goat</string>
+    <string name="goats_unit">goats</string>
+    <string name="cost_per_unit" formatted="true">Cost per %1$s</string>
+    <string name="profit_per_unit" formatted="true">Profit per %1$s</string>
+    <string name="reopen_batch">Reopen batch</string>
+    <string name="delete_batch">Delete batch</string>
+    <string name="enter_amount">Enter the amount received</string>
+    <string name="enter_count">Enter the number</string>
+    <string name="not_sold_yet">Not sold yet</string>
+</resources>
