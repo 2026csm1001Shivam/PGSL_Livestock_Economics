@@ -3,10 +3,29 @@
     <string name="select_language">ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ</string>
     <string name="continue_btn">ਅੱਗੇ ਵਧੋ</string>
     <string name="login">ਲੌਗਇਨ</string>
-    <string name="login_help">ਆਪਣਾ ਮੋਬਾਈਲ ਨੰਬਰ ਜਾਂ ਈਮੇਲ ਆਈਡੀ ਦਰਜ ਕਰੋ ਅਤੇ ਆਪਣੇ ਫਾਰਮ ਦੇ ਰਿਕਾਰਡ ਖੋਲ੍ਹੋ।</string>
+    <string name="login_help">ਮੋਬਾਈਲ ਨੰਬਰ (OTP) ਜਾਂ ਈਮੇਲ ਆਈਡੀ ਨਾਲ ਲੌਗਇਨ ਕਰੋ। ਤੁਹਾਡੇ ਰਿਕਾਰਡ ਸੁਰੱਖਿਅਤ ਰਹਿੰਦੇ ਹਨ ਅਤੇ ਕਿਸੇ ਵੀ ਫ਼ੋਨ ਤੇ ਖੁੱਲ੍ਹਦੇ ਹਨ।</string>
     <string name="mobile">ਮੋਬਾਈਲ ਨੰਬਰ</string>
     <string name="email">ਈਮੇਲ ਆਈਡੀ</string>
     <string name="your_name">ਤੁਹਾਡਾ ਨਾਮ (ਵਿਕਲਪਿਕ)</string>
     <string name="login_invalid_mobile">ਸਹੀ 10 ਅੰਕਾਂ ਦਾ ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ</string>
     <string name="login_invalid_email">ਸਹੀ ਈਮੇਲ ਆਈਡੀ ਦਰਜ ਕਰੋ</string>
+    <string name="password">ਪਾਸਵਰਡ</string>
+    <string name="send_otp">OTP ਭੇਜੋ</string>
+    <string name="verify_otp">OTP ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="enter_otp">6 ਅੰਕਾਂ ਦਾ OTP ਦਰਜ ਕਰੋ</string>
+    <string name="otp_sent" formatted="true">%1$s ਤੇ OTP ਭੇਜਿਆ ਗਿਆ</string>
+    <string name="resend_otp">OTP ਦੁਬਾਰਾ ਭੇਜੋ</string>
+    <string name="change_number">ਨੰਬਰ ਬਦਲੋ</string>
+    <string name="wrong_otp">ਗਲਤ OTP। ਜਾਂਚੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="otp_failed">OTP ਨਹੀਂ ਭੇਜਿਆ ਜਾ ਸਕਿਆ। ਨੰਬਰ ਜਾਂਚੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="too_many_requests">ਬਹੁਤ ਜ਼ਿਆਦਾ ਕੋਸ਼ਿਸ਼ਾਂ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="network_error">ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ। ਕਨੈਕਟ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="login_failed">ਗਲਤ ਈਮੇਲ ਜਾਂ ਪਾਸਵਰਡ। ਨਵੇਂ ਕਿਸਾਨ? ਖਾਤਾ ਬਣਾਓ ਦਬਾਓ।</string>
+    <string name="create_account">ਖਾਤਾ ਬਣਾਓ</string>
+    <string name="forgot_password">ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ?</string>
+    <string name="reset_sent">ਪਾਸਵਰਡ ਰੀਸੈੱਟ ਲਿੰਕ ਤੁਹਾਡੀ ਈਮੇਲ ਤੇ ਭੇਜਿਆ ਗਿਆ</string>
+    <string name="password_short">ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ 6 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</string>
+    <string name="email_in_use">ਇਸ ਈਮੇਲ ਨਾਲ ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਹੈ। ਲੌਗਇਨ ਦਬਾਓ।</string>
+    <string name="something_wrong">ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="loading_records">ਤੁਹਾਡੇ ਰਿਕਾਰਡ ਲੋਡ ਹੋ ਰਹੇ ਹਨ…</string>
 </resources>

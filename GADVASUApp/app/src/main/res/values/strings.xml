@@ -49,10 +49,10 @@
     <string name="logged_in_as" formatted="true">Logged in as %1$s</string>
     <string name="logout">Logout</string>
     <string name="data_storage">Data</string>
-    <string name="stored_on_device">Records are saved on this device and open again on your next visit.</string>
-    <string name="cloud_off">Cloud backup is not available here</string>
+    <string name="stored_on_device">Records are saved on this phone and backed up to the cloud. They work without internet and upload when you are online.</string>
+    <string name="cloud_on">Cloud backup is on</string>
     <string name="clear_data">Delete all my records</string>
-    <string name="confirm_clear">Delete all records for this account? This cannot be undone.</string>
+    <string name="confirm_clear">Delete all records for this account, on this phone and in the cloud? This cannot be undone.</string>
     <string name="cleared">All records deleted</string>
     <string name="about">About</string>
     <string name="about_text">Livestock economics record-keeping app for GADVASU, Ludhiana. Two profitability models: daily (Livestock, Layer) and after-sale batch (Broiler, Goatery, Fishery).</string>
@@ -60,6 +60,7 @@
     <string name="version" formatted="true">Version %1$s</string>
     <string name="app_short" translatable="false">GADVASU Livestock</string>
     <string name="wordmark" translatable="false">GADVASU</string>
+    <string name="hint_otp" translatable="false">123456</string>
     <string name="hint_zero" translatable="false">0</string>
     <string name="rupee" translatable="false">₹</string>
 </resources>

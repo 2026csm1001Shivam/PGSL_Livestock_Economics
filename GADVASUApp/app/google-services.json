@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "229592589001",
+    "project_id": "gadvasu-livestock",
+    "storage_bucket": "gadvasu-livestock.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229592589001:android:ee66d0fa01ed5729806318",
+        "android_client_info": {
+          "package_name": "com.gadvasu.livestockapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm-MADZiIrmP2lFi7n5gsk4og88Mn_ZmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

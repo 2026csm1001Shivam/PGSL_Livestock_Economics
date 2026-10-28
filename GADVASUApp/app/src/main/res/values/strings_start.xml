@@ -3,12 +3,31 @@
     <string name="select_language">Select your language</string>
     <string name="continue_btn">Continue</string>
     <string name="login">Login</string>
-    <string name="login_help">Enter your mobile number or email ID to open your farm records.</string>
+    <string name="login_help">Log in with your mobile number (OTP) or email ID. Your records are backed up and open on any phone.</string>
     <string name="mobile">Mobile number</string>
     <string name="email">Email ID</string>
     <string name="your_name">Your name (optional)</string>
     <string name="login_invalid_mobile">Enter a valid 10-digit mobile number</string>
     <string name="login_invalid_email">Enter a valid email ID</string>
+    <string name="password">Password</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="enter_otp">Enter the 6-digit OTP</string>
+    <string name="otp_sent" formatted="true">OTP sent to %1$s</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="change_number">Change number</string>
+    <string name="wrong_otp">Wrong OTP. Please check and try again.</string>
+    <string name="otp_failed">Could not send the OTP. Check the number and try again.</string>
+    <string name="too_many_requests">Too many attempts. Please try again later.</string>
+    <string name="network_error">No internet connection. Please connect and try again.</string>
+    <string name="login_failed">Wrong email or password. New farmer? Tap Create account.</string>
+    <string name="create_account">Create account</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset_sent">Password reset link sent to your email</string>
+    <string name="password_short">Password must be at least 6 characters</string>
+    <string name="email_in_use">An account with this email already exists. Tap Login.</string>
+    <string name="something_wrong">Something went wrong. Please try again.</string>
+    <string name="loading_records">Loading your records…</string>
     <string name="select_language_en" translatable="false">Select your language</string>
     <string name="language_prompt_other" translatable="false">अपनी भाषा चुनें\nਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ</string>
     <string name="lang_en_native" translatable="false">English</string>

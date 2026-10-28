@@ -51,7 +51,10 @@ class LanguageActivity : BaseActivity() {
     }
 
     private fun openNext() {
-        val next = if (FarmRepository.user() == null) LoginActivity::class.java else MainActivity::class.java
+        val signedIn = FarmRepository.user() != null
+        // Fetch the latest records from the cloud while Home opens (Home refreshes when they arrive)
+        if (signedIn) FarmRepository.syncInBackground()
+        val next = if (signedIn) MainActivity::class.java else LoginActivity::class.java
         startActivity(Intent(this, next))
         finish()
     }

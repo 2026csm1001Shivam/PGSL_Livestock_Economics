@@ -49,10 +49,10 @@
     <string name="logged_in_as" formatted="true">लॉगिन: %1$s</string>
     <string name="logout">लॉगआउट</string>
     <string name="data_storage">डेटा</string>
-    <string name="stored_on_device">रिकॉर्ड इस डिवाइस पर सहेजे जाते हैं और अगली बार फिर खुलते हैं।</string>
-    <string name="cloud_off">यहाँ क्लाउड बैकअप उपलब्ध नहीं है</string>
+    <string name="stored_on_device">रिकॉर्ड इस फोन पर सहेजे जाते हैं और क्लाउड में बैकअप होते हैं। ये बिना इंटरनेट के भी काम करते हैं और ऑनलाइन होने पर अपलोड होते हैं।</string>
+    <string name="cloud_on">क्लाउड बैकअप चालू है</string>
     <string name="clear_data">मेरे सभी रिकॉर्ड हटाएं</string>
-    <string name="confirm_clear">इस खाते के सभी रिकॉर्ड हटाएं? इसे वापस नहीं किया जा सकता।</string>
+    <string name="confirm_clear">इस खाते के सभी रिकॉर्ड, इस फोन और क्लाउड दोनों से, हटाएं? इसे वापस नहीं किया जा सकता।</string>
     <string name="cleared">सभी रिकॉर्ड हटा दिए गए</string>
     <string name="about">जानकारी</string>
     <string name="about_text">GADVASU, लुधियाना के लिए पशुधन अर्थशास्त्र रिकॉर्ड ऐप। दो लाभ मॉडल: दैनिक (पशुधन, लेयर) और बिक्री के बाद बैच (ब्रॉयलर, बकरी, मछली)।</string>

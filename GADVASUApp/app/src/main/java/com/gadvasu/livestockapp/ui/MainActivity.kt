@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.gadvasu.livestockapp.R
+import com.gadvasu.livestockapp.data.FarmRepository
 import com.gadvasu.livestockapp.databinding.ActivityMainBinding
 
 /** Hosts the four bottom-navigation tabs: Home, Dashboard, Reports, Settings. */
@@ -31,6 +32,21 @@ class MainActivity : BaseActivity() {
             currentTab = savedInstanceState.getInt(STATE_TAB, R.id.nav_home)
             updateTitle()
         }
+    }
+
+    /** Records downloaded from the cloud: redraw the open tab. */
+    private val onCloudData: () -> Unit = {
+        if (::b.isInitialized && !isFinishing) show(currentTab)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        FarmRepository.addListener(onCloudData)
+    }
+
+    override fun onPause() {
+        FarmRepository.removeListener(onCloudData)
+        super.onPause()
     }
 
     override fun onNewIntent(intent: Intent) {

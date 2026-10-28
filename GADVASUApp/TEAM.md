@@ -4,9 +4,9 @@ Each person owns one enterprise plus part of the shared app. **Every file has ex
 
 | # | Member | Enterprise | Also owns |
 |---|--------|------------|-----------|
-| 1 | Vaibhav | **Poultry** | Language, Login, Home and Settings screens; DailyEntryActivity (also used by Shivam's Livestock screen) |
+| 1 | Vaibhav | **Poultry** | Language, Login (Firebase OTP / email), Home and Settings screens; DailyEntryActivity (also used by Shivam's Livestock screen) |
 | 2 | Shivam | **Livestock** | MainActivity (bottom navigation), BaseActivity (top bar), theme and colours, app icon, common strings |
-| 3 | Pranav | **Goatery** | Batch screens (also used for Broiler and Fishery), FarmRepository (data storage, where Firebase will go), core data models, AndroidManifest, Gradle setup, TEAM.md |
+| 3 | Pranav | **Goatery** | Batch screens (also used for Broiler and Fishery), the Firebase backend (FarmRepository, CloudSync, Firestore schema and rules), core data models, AndroidManifest, Gradle setup, TEAM.md |
 | 4 | Vivek | **Fishery** | Calc (profit formulas), Ent (settings for all 5 enterprises), Dashboard, Reports and CSV export, Views.kt (lists, cards, profit slip), Fmt and Ext helpers |
 
 ## How the parts connect
@@ -21,7 +21,7 @@ Each person owns one enterprise plus part of the shared app. **Every file has ex
 
 1. **Pranav** creates the repository and pushes his part first (it has the Gradle setup, manifest and this file).
 2. **Vaibhav, Shivam and Vivek** each clone the repository, copy their own `GADVASUApp` folder over the clone (no file is replaced, only added), then commit and push from their own GitHub account.
-3. When all four parts are in, open the `GADVASUApp` folder in Android Studio and run it.
+3. When all four parts are in, follow `FIREBASE_SETUP.md` (adds `app/google-services.json`), then open the `GADVASUApp` folder in Android Studio and run it.
 
 ```
 git clone <repo-url>
@@ -56,7 +56,7 @@ Poultry chooser and Layer (egg) daily entry, the shared daily-entry logic, and t
 - `app/src/main/res/drawable/ic_chick.xml`
 - `app/src/main/res/drawable/bg_langbtn.xml`
 - `app/src/main/res/drawable/bg_tile.xml`
-- `app/src/main/res/drawable/dot_amber.xml`
+- `app/src/main/res/drawable/dot_green.xml`
 - `app/src/main/res/color/segment_bg.xml`
 - `app/src/main/res/color/segment_text.xml`
 - `app/src/main/res/values/strings_poultry.xml`
@@ -116,7 +116,7 @@ Livestock dairy entry (cows and buffaloes, cow and buffalo milk at today's price
 
 ### 3. Pranav: Goatery
 
-Goatery and the batch screens it uses (list, start batch, add expenses, close after sale). Broiler and Fishery reuse these screens. Also data storage and project setup.
+Goatery and the batch screens it uses (list, start batch, add expenses, close after sale). Broiler and Fishery reuse these screens. Also the Firebase backend (cloud sync, schema, security rules) and project setup.
 
 - `app/src/main/java/com/gadvasu/livestockapp/ui/BatchListActivity.kt`
 - `app/src/main/java/com/gadvasu/livestockapp/ui/BatchNewActivity.kt`
@@ -126,6 +126,9 @@ Goatery and the batch screens it uses (list, start batch, add expenses, close af
 - `app/src/main/java/com/gadvasu/livestockapp/data/Models.kt`
 - `app/src/main/java/com/gadvasu/livestockapp/data/FarmRepository.kt`
 - `app/src/main/java/com/gadvasu/livestockapp/GadvasuApp.kt`
+- `app/src/main/java/com/gadvasu/livestockapp/data/firebase/FirestoreSchema.kt`
+- `app/src/main/java/com/gadvasu/livestockapp/data/firebase/FirestoreMappers.kt`
+- `app/src/main/java/com/gadvasu/livestockapp/data/firebase/CloudSync.kt`
 - `app/src/main/res/layout/activity_batch_list.xml`
 - `app/src/main/res/layout/activity_batch_new.xml`
 - `app/src/main/res/layout/activity_batch_detail.xml`
@@ -146,6 +149,8 @@ Goatery and the batch screens it uses (list, start batch, add expenses, close af
 - `gradlew.bat`
 - `gradle/wrapper/*`
 - `TEAM.md`
+- `FIREBASE_SETUP.md`
+- `firebase/*`
 
 ### 4. Vivek: Fishery
 

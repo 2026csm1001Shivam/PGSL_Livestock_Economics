@@ -49,10 +49,10 @@
     <string name="logged_in_as" formatted="true">ਲੌਗਇਨ: %1$s</string>
     <string name="logout">ਲੌਗਆਊਟ</string>
     <string name="data_storage">ਡਾਟਾ</string>
-    <string name="stored_on_device">ਰਿਕਾਰਡ ਇਸ ਡਿਵਾਈਸ ਤੇ ਸੇਵ ਹੁੰਦੇ ਹਨ ਅਤੇ ਅਗਲੀ ਵਾਰ ਫਿਰ ਖੁੱਲ੍ਹਦੇ ਹਨ।</string>
-    <string name="cloud_off">ਇੱਥੇ ਕਲਾਊਡ ਬੈਕਅੱਪ ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <string name="stored_on_device">ਰਿਕਾਰਡ ਇਸ ਫ਼ੋਨ ਤੇ ਸੇਵ ਹੁੰਦੇ ਹਨ ਅਤੇ ਕਲਾਊਡ ਵਿੱਚ ਬੈਕਅੱਪ ਹੁੰਦੇ ਹਨ। ਇਹ ਬਿਨਾਂ ਇੰਟਰਨੈੱਟ ਵੀ ਕੰਮ ਕਰਦੇ ਹਨ ਅਤੇ ਔਨਲਾਈਨ ਹੋਣ ਤੇ ਅਪਲੋਡ ਹੁੰਦੇ ਹਨ।</string>
+    <string name="cloud_on">ਕਲਾਊਡ ਬੈਕਅੱਪ ਚਾਲੂ ਹੈ</string>
     <string name="clear_data">ਮੇਰੇ ਸਾਰੇ ਰਿਕਾਰਡ ਮਿਟਾਓ</string>
-    <string name="confirm_clear">ਇਸ ਖਾਤੇ ਦੇ ਸਾਰੇ ਰਿਕਾਰਡ ਮਿਟਾਉਣੇ ਹਨ? ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ।</string>
+    <string name="confirm_clear">ਇਸ ਖਾਤੇ ਦੇ ਸਾਰੇ ਰਿਕਾਰਡ, ਇਸ ਫ਼ੋਨ ਅਤੇ ਕਲਾਊਡ ਦੋਵਾਂ ਤੋਂ, ਮਿਟਾਉਣੇ ਹਨ? ਇਹ ਵਾਪਸ ਨਹੀਂ ਹੋ ਸਕਦਾ।</string>
     <string name="cleared">ਸਾਰੇ ਰਿਕਾਰਡ ਮਿਟਾ ਦਿੱਤੇ ਗਏ</string>
     <string name="about">ਜਾਣਕਾਰੀ</string>
     <string name="about_text">GADVASU, ਲੁਧਿਆਣਾ ਲਈ ਪਸ਼ੂਧਨ ਅਰਥਸ਼ਾਸਤਰ ਰਿਕਾਰਡ ਐਪ। ਦੋ ਲਾਭ ਮਾਡਲ: ਰੋਜ਼ਾਨਾ (ਪਸ਼ੂਧਨ, ਲੇਅਰ) ਅਤੇ ਵਿਕਰੀ ਤੋਂ ਬਾਅਦ ਬੈਚ (ਬ੍ਰਾਇਲਰ, ਬੱਕਰੀ, ਮੱਛੀ)।</string>

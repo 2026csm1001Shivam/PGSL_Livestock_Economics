@@ -35,7 +35,7 @@ class SettingsFragment : Fragment() {
         val p = FarmRepository.user()?.profile
         val who = if (p == null) "" else p.value + if (p.name.isNotBlank()) " (" + p.name + ")" else ""
         b.tvLoggedIn.text = getString(R.string.logged_in_as, who)
-        b.tvVersion.text = getString(R.string.version, "1.1")
+        b.tvVersion.text = getString(R.string.version, "2.0")
 
         b.btnChangeLanguage.setOnClickListener { startActivity(LanguageActivity.changeIntent(ctx)) }
         b.btnLogout.setOnClickListener {

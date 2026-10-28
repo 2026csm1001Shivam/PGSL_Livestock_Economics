@@ -1,0 +1,57 @@
+rules_version = '2';
+
+// GADVASU Livestock Economics: each farmer can only see and change their own data.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isOwner(uid) {
+      return request.auth != null && request.auth.uid == uid;
+    }
+
+    function isDate(v) {
+      return v is string && v.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$');
+    }
+
+    function isAmountMap(m) {
+      return m is map;
+    }
+
+    match /users/{uid} {
+      allow read, delete: if isOwner(uid);
+      allow create, update: if isOwner(uid)
+        && request.resource.data.role == 'farmer'
+        && request.resource.data.language in ['en', 'hi', 'pa'];
+
+      // One record per enterprise per day: ID must be "<enterprise>_<date>"
+      match /dailyRecords/{recordId} {
+        allow read, delete: if isOwner(uid);
+        allow create, update: if isOwner(uid)
+          && request.resource.data.enterprise in ['livestock', 'layer']
+          && isDate(request.resource.data.date)
+          && recordId == request.resource.data.enterprise + '_' + request.resource.data.date
+          && isAmountMap(request.resource.data.income)
+          && isAmountMap(request.resource.data.expenses)
+          && request.resource.data.profit is number;
+      }
+
+      match /batches/{batchId} {
+        allow read, delete: if isOwner(uid);
+        allow create, update: if isOwner(uid)
+          && request.resource.data.enterprise in ['broiler', 'goatery', 'fishery']
+          && request.resource.data.status in ['running', 'completed']
+          && isDate(request.resource.data.startDate)
+          && request.resource.data.count is int
+          && request.resource.data.count > 0;
+
+        match /expenses/{expenseId} {
+          allow read, delete: if isOwner(uid);
+          allow create, update: if isOwner(uid)
+            && isDate(request.resource.data.date)
+            && isAmountMap(request.resource.data.expenses)
+            && request.resource.data.total is number
+            && request.resource.data.total >= 0;
+        }
+      }
+    }
+  }
+}

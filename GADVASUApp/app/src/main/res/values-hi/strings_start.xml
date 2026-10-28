@@ -3,10 +3,29 @@
     <string name="select_language">अपनी भाषा चुनें</string>
     <string name="continue_btn">आगे बढ़ें</string>
     <string name="login">लॉगिन</string>
-    <string name="login_help">अपना मोबाइल नंबर या ईमेल आईडी दर्ज करें और अपने फार्म के रिकॉर्ड खोलें।</string>
+    <string name="login_help">मोबाइल नंबर (OTP) या ईमेल आईडी से लॉगिन करें। आपके रिकॉर्ड सुरक्षित रहते हैं और किसी भी फोन पर खुलते हैं।</string>
     <string name="mobile">मोबाइल नंबर</string>
     <string name="email">ईमेल आईडी</string>
     <string name="your_name">आपका नाम (वैकल्पिक)</string>
     <string name="login_invalid_mobile">सही 10 अंकों का मोबाइल नंबर दर्ज करें</string>
     <string name="login_invalid_email">सही ईमेल आईडी दर्ज करें</string>
+    <string name="password">पासवर्ड</string>
+    <string name="send_otp">OTP भेजें</string>
+    <string name="verify_otp">OTP सत्यापित करें</string>
+    <string name="enter_otp">6 अंकों का OTP दर्ज करें</string>
+    <string name="otp_sent" formatted="true">%1$s पर OTP भेजा गया</string>
+    <string name="resend_otp">OTP फिर से भेजें</string>
+    <string name="change_number">नंबर बदलें</string>
+    <string name="wrong_otp">गलत OTP। जांचें और फिर कोशिश करें।</string>
+    <string name="otp_failed">OTP नहीं भेजा जा सका। नंबर जांचें और फिर कोशिश करें।</string>
+    <string name="too_many_requests">बहुत अधिक प्रयास। कृपया बाद में कोशिश करें।</string>
+    <string name="network_error">इंटरनेट कनेक्शन नहीं है। कनेक्ट करके फिर कोशिश करें।</string>
+    <string name="login_failed">गलत ईमेल या पासवर्ड। नए किसान? खाता बनाएं दबाएं।</string>
+    <string name="create_account">खाता बनाएं</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="reset_sent">पासवर्ड रीसेट लिंक आपके ईमेल पर भेजा गया</string>
+    <string name="password_short">पासवर्ड कम से कम 6 अक्षरों का होना चाहिए</string>
+    <string name="email_in_use">इस ईमेल से खाता पहले से है। लॉगिन दबाएं।</string>
+    <string name="something_wrong">कुछ गलत हो गया। कृपया फिर कोशिश करें।</string>
+    <string name="loading_records">आपके रिकॉर्ड लोड हो रहे हैं…</string>
 </resources>

@@ -116,13 +116,13 @@
                     android:layout_width="10dp"
                     android:layout_height="10dp"
                     android:layout_marginEnd="8dp"
-                    android:background="@drawable/dot_amber" />
+                    android:background="@drawable/dot_green" />
 
                 <TextView
                     style="@style/Text.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/cloud_off" />
+                    android:text="@string/cloud_on" />
             </LinearLayout>
 
             <com.google.android.material.button.MaterialButton
